@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <div class="top-nav">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button class="Login">Login</button>
+        </div>
+    </header>
+    <div class="container">
+        <div id="main">
+            <div class="main box">
+                <div class="leftBox">
+                    <h2>ninja</h2>
+                    <p>noun</p>
+                    <h5>Plural: ninjas</h5>
+                    <button class="likes" onclick="addLike(this)"><span>13</span> likes</button>
+                </div>
+                <div class="rightBox">
+                    <p>A practitioner skilled in the <a href="index.html">Japanese</a> art of <a href="index.html">ninjutsu</a> </p>
+                </div>
+            </div>
+            <div class="main box">
+                <div class="leftBox">
+                    <h2>ninja</h2>
+                    <p>noun</p>
+                    <h5>Plural: ninjas</h5>
+                    <button class="likes" onclick="addLike(this)"><span>37</span> likes </button>
+                </div>
+                <div class="rightBox">
+                    <p>A <a href="index.html">programmer</a> that breaks down problems with <a href="index.html">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightPane">
+            <div class="box">
+                <h2>
+                    Dojonary is defined by YOU
+                </h2>
+                <button id="definition" onclick="disappear(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
